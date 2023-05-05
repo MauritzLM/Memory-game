@@ -10,27 +10,27 @@ export default function Game() {
     function handleClick(id) {
         // clicked card (gameover)
         if (hasCardBeenClicked(id)) {
-            resetScore();
+            setScore(0);
             // reset state
             setCardList([...cards]);
+
             return;
         } else {
-            updateScore();
+            // update score
+            setScore(score + 1);
+            // update card
             updateCard(id);
         }
-
+        return
     }
 
     // Already clicked?
     function hasCardBeenClicked(id) {
-        cardList.forEach(item => {
-            if (id === item.id && item.hasBeenClicked) {
-
+        for (const card of cardList) {
+            if (card.id === id && card.hasBeenClicked) {
                 return true;
             }
-        })
-
-
+        }
         return false;
     }
 
@@ -45,17 +45,6 @@ export default function Game() {
         })
         )
     }
-
-    // update Score
-    function updateScore() {
-        setScore(score + 1)
-    }
-
-    // reset score
-    function resetScore() {
-        setScore(0);
-    }
-
 
     return (
         <>
