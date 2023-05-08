@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Memory-game/static/css/main.2506840a.css",
+    "main.js": "/Memory-game/static/js/main.580b1204.js",
+    "static/js/787.69b12325.chunk.js": "/Memory-game/static/js/787.69b12325.chunk.js",
+    "static/media/painting10.png": "/Memory-game/static/media/painting10.23d994a313db3b213280.png",
+    "static/media/painting7.png": "/Memory-game/static/media/painting7.941c9aa16f8a3f960bda.png",
+    "static/media/painting11.png": "/Memory-game/static/media/painting11.bbf020356491027a40b4.png",
+    "static/media/painting15.png": "/Memory-game/static/media/painting15.5402df1ebe6ce9531946.png",
+    "static/media/painting4.png": "/Memory-game/static/media/painting4.210b09c344c6a6ed41cc.png",
+    "static/media/painting6.png": "/Memory-game/static/media/painting6.ae2f34e2192e0abb7be4.png",
+    "static/media/painting1.png": "/Memory-game/static/media/painting1.42b86c2665db2e45fab5.png",
+    "static/media/painting3.png": "/Memory-game/static/media/painting3.0754ed2a941a9bce5692.png",
+    "static/media/painting16.png": "/Memory-game/static/media/painting16.5d272fbcb2af18f9cd2b.png",
+    "static/media/painting2.png": "/Memory-game/static/media/painting2.42ceb98a6749de5d1189.png",
+    "static/media/painting13.png": "/Memory-game/static/media/painting13.fa44b681a3ea7d41430d.png",
+    "static/media/painting17.png": "/Memory-game/static/media/painting17.16d486e0a0cb48d8ce0e.png",
+    "static/media/painting14.png": "/Memory-game/static/media/painting14.61e36992516f66f88500.png",
+    "static/media/painting9.png": "/Memory-game/static/media/painting9.7820aefad23828ef0313.png",
+    "static/media/painting8.png": "/Memory-game/static/media/painting8.5364f68f40522797086d.png",
+    "static/media/painting18.png": "/Memory-game/static/media/painting18.4dadeb0e319255608015.png",
+    "static/media/painting5.png": "/Memory-game/static/media/painting5.7ff016220fa2d9fb6073.png",
+    "static/media/painting12.png": "/Memory-game/static/media/painting12.1b185f24bce76ae101b5.png",
+    "index.html": "/Memory-game/index.html",
+    "main.2506840a.css.map": "/Memory-game/static/css/main.2506840a.css.map",
+    "main.580b1204.js.map": "/Memory-game/static/js/main.580b1204.js.map",
+    "787.69b12325.chunk.js.map": "/Memory-game/static/js/787.69b12325.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2506840a.css",
+    "static/js/main.580b1204.js"
+  ]
+}
