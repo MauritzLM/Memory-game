@@ -2,23 +2,76 @@
   box-sizing: border-box;
 }
 
+/* General styles */
+
 html {
   font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  height: 100vh;
 }
 
 body {
   font-size: 1.6rem;
+  background-color: #DDC3A5;
+  margin: 0;
+  height: 100%;
+}
+
+header {
+  background-color: #201E20;
+  padding: 1em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.7rem;
+  margin: 0;
+  color: rgb(247, 240, 230);
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+p {
+  color: #201E20;
+  font-weight: 600;
+}
+
+h2+p {
+  font-size: 2.2rem;
+  margin-top: .5em;
+}
+
+.scoreboard p {
+  font-size: 2rem;
+}
+
+h2,
+.new-game,
+h2+p {
+  align-self: center;
 }
 
 img {
   height: 250px;
-  width: 300px;
+  width: 350px;
+  border-radius: 5px;
 }
 
+/* cards layout */
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-auto-rows: minmax(100px, auto);
   gap: 1em;
 }
@@ -27,4 +80,29 @@ img {
   width: max-content;
   height: max-content;
   cursor: pointer;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: #201E20;
+}
+
+/* new game button */
+.new-game {
+  padding: .5em 1em .6em 1em;
+  font: inherit;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+}
+
+.new-game:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(137, 192, 174);
+
+}
+
+.card-item:hover {
+  background-color: #E0A96D;
 }
