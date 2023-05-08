@@ -2,8 +2,9 @@
 function GameOVer({ score, handleNewGame }) {
     return (
         <>
-            <h2>Game Over your score is: {score}</h2>
-            <button onClick={() => handleNewGame()}>Start new game</button>
+            <h2>Game Over!</h2>
+            <p>your score is {score}</p>
+            <button className="new-game" onClick={() => handleNewGame()}>New Game</button>
         </>
     )
 }
