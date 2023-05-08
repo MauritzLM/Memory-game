@@ -11,7 +11,12 @@ import painting9 from './images/painting9.png';
 import painting10 from './images/painting10.png';
 import painting11 from './images/painting11.png';
 import painting12 from './images/painting12.png';
-
+import painting13 from './images/painting13.png';
+import painting14 from './images/painting14.png';
+import painting15 from './images/painting15.png';
+import painting16 from './images/painting16.png';
+import painting17 from './images/painting17.png';
+import painting18 from './images/painting18.png';
 
 
 // array of cards
@@ -27,5 +32,11 @@ export const cards = [
     { id: uuidv4(), src: painting9, name: 'painting-9', hasBeenClicked: false },
     { id: uuidv4(), src: painting10, name: 'painting-10', hasBeenClicked: false },
     { id: uuidv4(), src: painting11, name: 'painting-11', hasBeenClicked: false },
-    { id: uuidv4(), src: painting12, name: 'painting-12', hasBeenClicked: false }
-]
+    { id: uuidv4(), src: painting12, name: 'painting-12', hasBeenClicked: false },
+    { id: uuidv4(), src: painting13, name: 'painting-13', hasBeenClicked: false },
+    { id: uuidv4(), src: painting14, name: 'painting-14', hasBeenClicked: false },
+    { id: uuidv4(), src: painting15, name: 'painting-15', hasBeenClicked: false },
+    { id: uuidv4(), src: painting16, name: 'painting-16', hasBeenClicked: false },
+    { id: uuidv4(), src: painting17, name: 'painting-17', hasBeenClicked: false },
+    { id: uuidv4(), src: painting18, name: 'painting-18', hasBeenClicked: false }
+];
